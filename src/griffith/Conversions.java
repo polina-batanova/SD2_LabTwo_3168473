@@ -4,7 +4,7 @@ public class Conversions {
 
     public double euroToDollar(double euro) {
         double RATE = 1.1;
-        return 0;
+        return euro * RATE;
     }
     public double dollarToEuro(double dollar) {
         return 0;
