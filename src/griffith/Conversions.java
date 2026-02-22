@@ -17,7 +17,7 @@ public class Conversions {
         return Integer.parseInt(val);
     }
     public String integerToString(int val) {
-        return null;
+        return Integer.toString(val);
     }
 
     public String switchCase(String input) {
