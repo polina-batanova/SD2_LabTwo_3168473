@@ -16,6 +16,7 @@ public class Conversions {
     public int stringToInteger(String val) {
         return Integer.parseInt(val);
     }
+    // Method for converting Integer to String
     public String integerToString(int val) {
         return Integer.toString(val);
     }
