@@ -35,5 +35,11 @@ public class ConversionsTest {
         // Testing method with zero values
         assertEquals(0, conversions.stringToInteger("0"));
     }
+    @Test
+    void testIntegerToString() {
+        assertEquals("23", conversions.integerToString(23));
+        assertEquals("-100", conversions.integerToString(-100));
+        assertEquals("0", conversions.integerToString(0));
+    }
 
 }
