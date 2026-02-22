@@ -17,5 +17,11 @@ public class ConversionsTest {
         // Testing method with negative values
         assertEquals(-1.1, conversions.euroToDollar(-1), 0.01);
     }
+    @Test
+    void testDollarToEuro() {
+        assertEquals(10, conversions.dollarToEuro(11), 0.01);
+        assertEquals(0, conversions.dollarToEuro(0), 0.01);
+        assertEquals(-25, conversions.dollarToEuro(-27.5), 0.01);
+    }
 
 }
