@@ -2,13 +2,13 @@ package griffith;
 
 public class Conversions {
 
+    private static final double RATE = 1.1;
+
     // Method for converting Euro to Dollar.
     public double euroToDollar(double euro) {
-        double RATE = 1.1;
         return euro * RATE;
     }
     public double dollarToEuro(double dollar) {
-        double RATE = 1.1;
         return dollar / RATE;
     }
 
