@@ -22,6 +22,7 @@ public class Conversions {
     }
 
     public String switchCase(String input) {
+        String result = "";
         return null;
     }
 }
