@@ -23,6 +23,7 @@ public class Conversions {
 
     public String switchCase(String input) {
         String result = "";
+        for (char c : input.toCharArray()) { }
         return null;
     }
 }
