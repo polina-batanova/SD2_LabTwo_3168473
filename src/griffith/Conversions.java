@@ -2,6 +2,7 @@ package griffith;
 
 public class Conversions {
 
+    // Method for converting Euro to Dollar.
     public double euroToDollar(double euro) {
         double RATE = 1.1;
         return euro * RATE;
