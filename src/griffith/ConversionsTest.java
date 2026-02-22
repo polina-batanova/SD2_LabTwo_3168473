@@ -44,5 +44,11 @@ public class ConversionsTest {
         // Testing method with zero values
         assertEquals("0", conversions.integerToString(0));
     }
+    @Test
+    void testSwitchCase() {
+        assertEquals("TRAVEL", conversions.switchCase("travel"));
+        assertEquals("pARIS", conversions.switchCase("Paris"));
+        assertEquals("gUINNESS", conversions.switchCase("Guinness"));
+    }
 
 }
