@@ -25,6 +25,7 @@ public class Conversions {
         String result = "";
         // for loop through each character
         for (char c : input.toCharArray()) {
+            // Check if the character is uppercase
             if (Character.isUpperCase(c)) {
                 result += Character.toLowerCase(c);
             } else {
