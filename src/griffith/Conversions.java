@@ -20,7 +20,7 @@ public class Conversions {
     public String integerToString(int val) {
         return Integer.toString(val);
     }
-
+    // Method for switching case
     public String switchCase(String input) {
         String result = "";
         for (char c : input.toCharArray()) {
