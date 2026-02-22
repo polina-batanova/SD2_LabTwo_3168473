@@ -28,8 +28,11 @@ public class ConversionsTest {
     }
     @Test
     void testStringToInteger() {
+        // Testing method with positive values
         assertEquals(8, conversions.stringToInteger("8"));
+        // Testing method with negative values
         assertEquals(-3, conversions.stringToInteger("-3"));
+        // Testing method with zero values
         assertEquals(0, conversions.stringToInteger("0"));
     }
 
