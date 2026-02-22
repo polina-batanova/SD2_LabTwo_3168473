@@ -12,7 +12,7 @@ public class Conversions {
     public double dollarToEuro(double dollar) {
         return dollar / RATE;
     }
-
+    // Method for converting String to Integer
     public int stringToInteger(String val) {
         return Integer.parseInt(val);
     }
