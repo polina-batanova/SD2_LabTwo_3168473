@@ -46,8 +46,11 @@ public class ConversionsTest {
     }
     @Test
     void testSwitchCase() {
+        // Testing all lowercase to uppercase
         assertEquals("TRAVEL", conversions.switchCase("travel"));
+        // Testing capitalized word to first letter lower, rest upper
         assertEquals("pARIS", conversions.switchCase("Paris"));
+        // Testing mixed case word
         assertEquals("gUINNESS", conversions.switchCase("Guinness"));
     }
 
