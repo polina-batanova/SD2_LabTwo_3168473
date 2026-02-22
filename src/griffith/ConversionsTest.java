@@ -1,4 +1,18 @@
 package griffith;
 
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class ConversionsTest {
+    Conversions conversions = new Conversions();
+
+    @Test
+    void testEuroToDollar() {
+        assertEquals(1.1, conversions.euroToDollar(1), 0.01);
+        assertEquals(0, conversions.euroToDollar(0), 0.01);
+        assertEquals(-1.1, conversions.euroToDollar(-1), 0.01);
+    }
+
 }
