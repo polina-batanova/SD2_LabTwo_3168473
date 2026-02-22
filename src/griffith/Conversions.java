@@ -30,6 +30,6 @@ public class Conversions {
                 result += Character.toUpperCase(c);
             }
         }
-        return null;
+        return result;
     }
 }
