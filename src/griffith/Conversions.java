@@ -26,7 +26,9 @@ public class Conversions {
         for (char c : input.toCharArray()) {
             if (Character.isUpperCase(c)) {
                 result += Character.toLowerCase(c);
-            } else { }
+            } else {
+                result += Character.toUpperCase(c);
+            }
         }
         return null;
     }
