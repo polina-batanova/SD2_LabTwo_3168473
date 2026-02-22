@@ -23,7 +23,10 @@ public class Conversions {
 
     public String switchCase(String input) {
         String result = "";
-        for (char c : input.toCharArray()) { }
+        for (char c : input.toCharArray()) {
+            if (Character.isUpperCase(c)) { }
+            else { }
+        }
         return null;
     }
 }
