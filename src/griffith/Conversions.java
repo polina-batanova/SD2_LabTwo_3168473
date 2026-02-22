@@ -23,6 +23,7 @@ public class Conversions {
     // Method for switching case
     public String switchCase(String input) {
         String result = "";
+        // for loop through each character
         for (char c : input.toCharArray()) {
             if (Character.isUpperCase(c)) {
                 result += Character.toLowerCase(c);
