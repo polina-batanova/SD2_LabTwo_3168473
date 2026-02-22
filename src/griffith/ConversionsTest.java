@@ -19,8 +19,11 @@ public class ConversionsTest {
     }
     @Test
     void testDollarToEuro() {
+        // Testing method with positive values
         assertEquals(10, conversions.dollarToEuro(11), 0.01);
+        // Testing method with zero values
         assertEquals(0, conversions.dollarToEuro(0), 0.01);
+        // Testing method with negative values
         assertEquals(-25, conversions.dollarToEuro(-27.5), 0.01);
     }
 
