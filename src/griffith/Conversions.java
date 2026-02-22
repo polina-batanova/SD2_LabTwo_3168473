@@ -24,8 +24,9 @@ public class Conversions {
     public String switchCase(String input) {
         String result = "";
         for (char c : input.toCharArray()) {
-            if (Character.isUpperCase(c)) { }
-            else { }
+            if (Character.isUpperCase(c)) {
+                result += Character.toLowerCase(c);
+            } else { }
         }
         return null;
     }
