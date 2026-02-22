@@ -4,10 +4,11 @@ public class Conversions {
 
     private static final double RATE = 1.1;
 
-    // Method for converting Euro to Dollar.
+    // Method for converting Euro to Dollar
     public double euroToDollar(double euro) {
         return euro * RATE;
     }
+    // Method for converting Dollar to Euro
     public double dollarToEuro(double dollar) {
         return dollar / RATE;
     }
