@@ -9,7 +9,7 @@ public class Conversions {
     }
     public double dollarToEuro(double dollar) {
         double RATE = 1.1;
-        return 0;
+        return dollar / RATE;
     }
 
     public int stringToInteger(String val) {
