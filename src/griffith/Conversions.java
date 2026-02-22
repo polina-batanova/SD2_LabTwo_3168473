@@ -8,6 +8,7 @@ public class Conversions {
         return euro * RATE;
     }
     public double dollarToEuro(double dollar) {
+        double RATE = 1.1;
         return 0;
     }
 
