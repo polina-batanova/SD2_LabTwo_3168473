@@ -27,8 +27,10 @@ public class Conversions {
         for (char c : input.toCharArray()) {
             // Check if the character is uppercase
             if (Character.isUpperCase(c)) {
+                // Convert uppercase to lowercase
                 result += Character.toLowerCase(c);
             } else {
+                // Convert lowercase to uppercase
                 result += Character.toUpperCase(c);
             }
         }
